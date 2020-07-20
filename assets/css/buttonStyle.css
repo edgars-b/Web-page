@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mybuttons {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 15px auto;
+  height: 30px;
+  background-color: #7a7;
+  font-size: 1.5rem;
+  width: 60%;
+  transition: .4s;
+  box-shadow: 2px 2px 4px rgba(63, 63, 63, .7);
+}
+
+.mybuttons:hover{
+	background-color: #585;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mybuttons:active {
+  box-shadow: none;
+}
+
+.windows {
+	position: fixed;
+	width: 60vw;
+	height: 80vh;
+	border: 1px solid grey;
+	border-radius: 6px;
+	left: 20vw;
+	top: -100vh;
+	color: white;
+	background-color: rgba(63,63,63,.97);
+	box-shadow: 2px 2px 10px #333;
+	transition: .5s;
+	z-index: 1;
+}
+
+.winwis {
+	top: 10vh;
+	z-index: 2;
+}
+
+.window-text {
+	text-align: center;
+	color: bisque;
+	margin: 10px;
+}
+
+.btn-w-close{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
