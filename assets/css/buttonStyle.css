@@ -10,7 +10,7 @@
   border-radius: 5px;
   margin: 15px auto;
   height: 30px;
-  background-color: #7a7;
+  background-color: #9f8bb3;
   font-size: 1.5rem;
   width: 60%;
   transition: .4s;
@@ -18,7 +18,7 @@
 }
 
 .mybuttons:hover{
-	background-color: #585;
+	background-color: #8a6da8;
 }
 
 .buttons{

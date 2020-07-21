@@ -24,7 +24,7 @@ footer {
 }
 
 li:hover {
-  background-color: rgb(209, 63, 63);
+  background-color: #8a6da8;
 }
 
 ul > li {
@@ -36,11 +36,11 @@ ul > li {
 }
 
 header {
-  background-color: green;
+  background-color: #ffe4da;
 }
 
 nav {
-  background-color: brown;
+  background-color: #9f8bb3;
 }
 
 main {
@@ -55,16 +55,16 @@ main {
 
 .left-aside,
 .right-aside {
-  min-height: 75vh;
+  min-height: 70vh;
   padding: 15px;
   width: 25%;
-  background-color: aqua;
+  background-color: #ffe4da;
 }
 
 article {
   padding: 15px;
   width: 50%;
-  background-color: blue;
+  background-color: #ffd6c7;
 }
 
 .main-view {
@@ -73,7 +73,7 @@ article {
 }
 
 footer {
-  background-color: coral;
+  background-color: #9f8bb3;
 }
 
 @media screen and (max-width: 600px) {
