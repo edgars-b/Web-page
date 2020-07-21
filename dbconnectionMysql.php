@@ -1,5 +1,7 @@
 <?php
 
+// File unrelated to page, it is homework file
+
 class PdoDB
 {
 
